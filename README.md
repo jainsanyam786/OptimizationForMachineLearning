@@ -14,3 +14,6 @@ Homework 3
   
 Homework 4
   Implement and visualize SVM on dataset.
+  
+Final Project 
+  Predict Mortality for COVID data.
