@@ -6,7 +6,7 @@ Compare the predictor based on ogistic regression and support vector machines an
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
-* [Code](#features)
+* [Code](#code)
 * [Results](#results)
 * [Conclusion](#conclusion)
 
@@ -19,7 +19,7 @@ Compare the predictor based on ogistic regression and support vector machines an
 ## Technologies
 * Programming Language -  Python3.
 
-## code
+## Code
 * Code -  [Jupyter notebook.](https://github.com/jainsanyam786/OptimizationForMachineLearning/blob/master/Predict_Mortality_due_to_COVID/FinalProject.ipynb) 
 * Above jupyter notebook contains code for data pre-processing, model designing, training and testing.
 
