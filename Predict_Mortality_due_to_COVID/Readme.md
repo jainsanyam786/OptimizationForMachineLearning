@@ -34,7 +34,8 @@ SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic
 * Normal stochastic gradient descent is used to train SVM classifier. 
   
 ## Results
-![Example screenshot](./image.png)
+* Correlation matrix for data :: below image shows the correlation between features to design the model.
+<img src="./data_corr.png" alt="drawing" width="500" height="500"/>
 
 ## Conclusion
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
