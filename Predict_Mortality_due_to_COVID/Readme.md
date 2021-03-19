@@ -6,7 +6,7 @@ Compare both models and identify best among them.
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
-* [Results](#screenshots)
+* [Results](#results)
 * [Conclusion](#conclusion)
 
 ## General info
@@ -23,7 +23,7 @@ List of features ready and TODOs for future development
 * Awesome feature 2
 * Awesome feature 3
 
-## Result
+## Results
 ![Example screenshot](./image.png)
 
 ## Conclusion
