@@ -25,11 +25,11 @@ Compare the predictor based on logistic regression and support vector machines a
 
 ## Features
 SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic Sampling Method) are used to reduce the impact of class imbalance in data.
-* ### SMOTE
+* ### SMOTE 
   Data augmentation technique for the minority class which duplicates exiting examples in the minority class. These examples don’t add any new information to the model.  
-* ### ADASYSN
-  ADASYSN is similar to SMOTE as it also duplicates existing examples but preference is given to examples that are not in homogenous neighborhoods, thus generating "hard to learn"
-  samples
+* ### ADASYSN 
+  ADASYSN is similar to SMOTE as it also duplicates existing examples but preference is given to examples that are not in homogenous neighborhoods, thus generating "hard to learn" samples.
+  
 * Polyak's momentum-based stochastic gradient descent is used to train logistic regression classifier.
 * Normal stochastic gradient descent is used to train the SVM classifier. 
   
@@ -56,4 +56,4 @@ SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic
 * In terms of overall accuracy logistic regression is better.
 * In terms of F1 score and Precision logistic regression is way better than SVM.
 * In terms of ROC_AUC_SCORE and Recall SVM is better but, the difference is small.
-### logistic regression-based model correctly predicts if the person will survive or not better than SVM based model.
+### Logistic regression-based model correctly predicts if the person will survive or not better than SVM based model.
