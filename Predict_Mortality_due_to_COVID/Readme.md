@@ -6,6 +6,7 @@ Compare the predictor based on ogistic regression and support vector machines an
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Features](#features)
+* [Code](#features)
 * [Results](#results)
 * [Conclusion](#conclusion)
 
@@ -18,6 +19,10 @@ Compare the predictor based on ogistic regression and support vector machines an
 ## Technologies
 * Programming Language -  Python3.
 
+## code
+* Code -  [Jupyter notebook.](https://github.com/jainsanyam786/OptimizationForMachineLearning/blob/master/Predict_Mortality_due_to_COVID/FinalProject.ipynb) 
+* Above jupyter notebook contains code for data pre-processing, model designing, training and testing.
+
 ## Features
 SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic Sampling Method) are use reduce the impact of class imbalance in data.
 * ### SMOTE
@@ -25,6 +30,8 @@ SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic
 * ### ADASYSN
   ADASYSN is similar to SMOTE as it also duplicates existing examples but prefernce is given to examples that are not in homogenous neighborhoods, thus generating "hard to learn"
   samples
+* Polyak's momentum based stochastic gradient descent is used to train logistic regression classifier.
+* Normal stochastic gradient descent is used to train SVM classifier. 
   
 ## Results
 ![Example screenshot](./image.png)
