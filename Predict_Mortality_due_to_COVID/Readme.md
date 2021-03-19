@@ -36,22 +36,22 @@ SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic
   
 ## Results
 * Correlation matrix for data.
-<img src="./data_corr.png" alt="data_corr" width="500" height="500"/>
+<img src="./img/data_corr.png" alt="data_corr" width="500" height="500"/>
 
 * Logistic Regression based classifier with SMOTE (Left - Training Data & Right - Testing Data).
-<img src="./Image1.png" alt="Image1" width="800" height="500"/>
+<img src="./img/Image1.png" alt="Image1" width="800" height="500"/>
 
 * Logistic Regression based classifier with ADASYN (Left - Training Data & Right - Testing Data).
-<img src="./Image2.png" alt="Image2" width="800" height="500"/>
+<img src="./img/Image2.png" alt="Image2" width="800" height="500"/>
 
 * SVM based classifier with SMOTE (Left - Training Data & Right - Testing Data).
-<img src="./Image3.png" alt="Image3" width="800" height="500"/>
+<img src="./img/Image3.png" alt="Image3" width="800" height="500"/>
 
 * SVM based classifier with ADASYN (Left - Training Data & Right - Testing Data).
-<img src="./Image4.png" alt="Image4" width="800" height="500"/>
+<img src="./img/Image4.png" alt="Image4" width="800" height="500"/>
 
 * Comparing all models based on Accuracy, Precision, Recall, F1 score, and RUC_AUC_SCORE.
-<img src="./Image6.png" alt="Image6" width="1200" height="150"/>
+<img src="./img/Image6.png" alt="Image6" width="1200" height="150"/>
 
 ## Conclusion
 * In terms of overall accuracy logistic regression is better.
