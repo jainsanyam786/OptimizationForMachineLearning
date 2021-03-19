@@ -9,6 +9,7 @@ Compare the predictor based on logistic regression and support vector machines a
 * [Code](#code)
 * [Results](#results)
 * [Conclusion](#conclusion)
+* [Reference](#reference)
 
 ## General info
 * Dataset for the project is taken from [kaggle](https://www.kaggle.com/kimjihoo/coronavirusdataset). The dataset was released by Korea Centers for Disease Control and Prevention, and it contains information on the Covid-19 cases in South Korea.
@@ -57,3 +58,6 @@ SMOTE (Synthetic Minority Oversampling Technique) and ADASYN (Adaptive Synthetic
 * In terms of F1 score and Precision logistic regression is way better than SVM.
 * In terms of ROC_AUC_SCORE and Recall SVM is better but, the difference is small.
 ### Logistic regression-based model correctly predicts if the person will survive or not better than SVM based model.
+
+## Reference
+* [Predicting CoVID-19 community mortality risk using machine learning and development of an online prognostic tool, 2020 by Das et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528809/pdf/peerj-08-10083.pdf)
